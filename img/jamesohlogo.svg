@@ -7,7 +7,7 @@
 	.st0 {
 		fill:transparent;
 		stroke:#000000;
-		stroke-width:3;
+		stroke-width:2;
 		stroke-linejoin:round;
 		stroke-miterlimit:10;
 
