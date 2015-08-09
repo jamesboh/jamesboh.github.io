@@ -8,3 +8,8 @@
   background: #ccc;
   padding: 10px;
 }
+
+/* line 10, ../scss/custom.scss */
+img {
+  width: 100%;
+}
