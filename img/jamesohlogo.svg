@@ -11,24 +11,34 @@
 		stroke-linejoin:round;
 		stroke-miterlimit:10;
 
-		stroke-dasharray: 800;
+		stroke-dasharray: 400;
 		stroke-dashoffset: 0;
-		-webkit-animation: dash 2s linear forwards;
-		-o-animation: dash 2s linear forwards;
-		-moz-animation: dash 2s linear forwards;
-		animation: dash 2s linear forwards;
+		-webkit-animation: dash 2s linear 0s forwards, filllogo 1s linear 2s forwards;
+		-o-animation: dash 2s linear 0s forwards, filllogo 1s linear 2s forwards;
+		-moz-animation: dash 2s linear 0s forwards, filllogo 1s linear 2s forwards;
+		animation: dash 2s linear 0s forwards, filllogo 1s linear 2s forwards;
+
+<!-- 		-webkit-animation: dash 2s linear 0s forwards;
+		-o-animation: dash 2s linear 0s forwards;
+		-moz-animation: dash 2s linear 0s forwards;
+		animation: dash 2s linear 0s forwards; -->
 	}
 
 	@-webkit-keyframes dash {
 		from {
-			stroke-dashoffset: 800;
-			fill:transparent;
-			<!-- stroke:black; -->
+			stroke-dashoffset: 400;
 		}
 		to {
 			stroke-dashoffset: 0;
+		}
+	}
+
+	@-webkit-keyframes filllogo {
+		from {
+			fill:transparent;
+		}
+		to {
 			fill:black;
-			<!-- stroke:white; -->
 		}
 	}
 </style>
