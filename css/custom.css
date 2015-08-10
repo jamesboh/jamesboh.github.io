@@ -1,15 +1,44 @@
 /* line 1, ../scss/custom.scss */
+[class*='col-'] {
+  /*float: left;*/
+  /*padding-right: 20px;*/
+  padding-bottom: 20px;
+}
+
+/* line 7, ../scss/custom.scss */
+.grid-pad-left {
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+/*.grid-pad-bottom {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}*/
+/* line 20, ../scss/custom.scss */
 .outline, .outline * {
   /*outline: 1px solid red; */
 }
 
-/* line 5, ../scss/custom.scss */
+/* line 24, ../scss/custom.scss */
 .content {
   background: #ccc;
   padding: 10px;
 }
 
-/* line 10, ../scss/custom.scss */
-img {
+/* line 29, ../scss/custom.scss */
+img, canvas {
   width: 100%;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+  box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+}
+
+/* line 38, ../scss/custom.scss */
+.secondary-nav {
+  background: #e8e8e8;
 }

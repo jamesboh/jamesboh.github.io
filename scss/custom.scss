@@ -1,3 +1,22 @@
+[class*='col-'] {
+	/*float: left;*/
+    /*padding-right: 20px;*/
+    padding-bottom: 20px;
+}
+
+.grid-pad-left {
+	padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+/*.grid-pad-bottom {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}*/
+
 .outline, .outline *{
     /*outline: 1px solid red; */
 }
@@ -7,6 +26,15 @@
     padding: 10px;
 }
 
-img {
+img, canvas {
 	width: 100%;
+	margin-bottom: 20px;
+
+	-webkit-box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+}
+
+.secondary-nav {
+    background: rgb(232,232,232);
 }
