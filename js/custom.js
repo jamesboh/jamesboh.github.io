@@ -7,7 +7,13 @@ function init() {
 			imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
 		} 
 	} 
+
     Gifffer();
+
+    //refresh on resize
+    window.onresize = function(){ 
+    	location.reload(); 
+    }
 
 }
 window.onload = init;
