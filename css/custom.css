@@ -1,11 +1,33 @@
 /* line 1, ../scss/custom.scss */
+img {
+  width: 100%;
+}
+/* line 4, ../scss/custom.scss */
+img.desaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+
+/* line 13, ../scss/custom.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* line 17, ../scss/custom.scss */
+ul li {
+  display: inline;
+}
+
+/* line 23, ../scss/custom.scss */
 [class*='col-'] {
   /*float: left;*/
   /*padding-right: 20px;*/
   padding-bottom: 20px;
 }
 
-/* line 7, ../scss/custom.scss */
+/* line 29, ../scss/custom.scss */
 .grid-pad-left {
   padding-top: 0px;
   padding-left: 20px;
@@ -18,19 +40,19 @@
     padding-right: 0px;
     padding-bottom: 20px;
 }*/
-/* line 20, ../scss/custom.scss */
+/* line 42, ../scss/custom.scss */
 .outline, .outline * {
-  outline: 1px solid red;
+  /*outline: 1px solid lightgrey; */
 }
 
-/* line 24, ../scss/custom.scss */
+/* line 46, ../scss/custom.scss */
 .content {
   background: #ccc;
   padding: 10px;
 }
 
-/* line 29, ../scss/custom.scss */
-img, canvas {
+/* line 53, ../scss/custom.scss */
+section img, section canvas {
   width: 100%;
   margin-bottom: 20px;
   -webkit-box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
@@ -38,7 +60,59 @@ img, canvas {
   box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
 }
 
-/* line 38, ../scss/custom.scss */
+/* line 63, ../scss/custom.scss */
+#hero {
+  background: transparent url("../img/herobackground.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 15% 0 10%;
+  color: white;
+}
+/* line 69, ../scss/custom.scss */
+#hero h1, #hero p {
+  font-weight: 300;
+}
+
+/* line 74, ../scss/custom.scss */
 .secondary-nav {
-  background: #e8e8e8;
+  background: #f0f0f0;
+}
+/* line 76, ../scss/custom.scss */
+.secondary-nav img {
+  padding: 8%;
+  opacity: 0.5;
+}
+
+/*Make svg clickable*/
+/* line 85, ../scss/custom.scss */
+a.svg {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 90, ../scss/custom.scss */
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 100, ../scss/custom.scss */
+a.svg.logo {
+  width: 80px;
+}
+
+/*Navigation*/
+/* line 107, ../scss/custom.scss */
+header {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.98);
+  width: 100%;
+  z-index: 9;
+  -webkit-box-shadow: 4px 4px 2px 0px rgba(50, 50, 50, 0.15);
+  -moz-box-shadow: 4px 4px 2px 0px rgba(50, 50, 50, 0.15);
+  box-shadow: 4px 4px 2px 0px rgba(50, 50, 50, 0.15);
 }

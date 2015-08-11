@@ -7,8 +7,5 @@ function init() {
 			imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
 		} 
 	} 
-
-    Gifffer();
-    
 }
 window.onload = init;
