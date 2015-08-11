@@ -9,11 +9,6 @@ function init() {
 	} 
 
     Gifffer();
-
-    //refresh on resize
-    window.onresize = function(){ 
-    	location.reload(); 
-    }
-
+    
 }
 window.onload = init;
