@@ -47,7 +47,7 @@ nav ul {
 }*/
 /* line 47, ../scss/custom.scss */
 .outline, .outline * {
-  outline: 1px solid lightgrey;
+  /*outline: 1px solid lightgrey; */
 }
 
 /* line 51, ../scss/custom.scss */
@@ -81,22 +81,23 @@ section img, section canvas {
 /* line 80, ../scss/custom.scss */
 .secondary-nav {
   background: #f0f0f0;
+  line-height: 4.6;
 }
-/* line 82, ../scss/custom.scss */
+/* line 83, ../scss/custom.scss */
 .secondary-nav img {
-  padding: 8%;
+  padding: 0 15%;
   opacity: 0.5;
 }
 
 /*Make svg clickable*/
-/* line 91, ../scss/custom.scss */
+/* line 92, ../scss/custom.scss */
 a.svg {
   position: relative;
   display: inline-block;
   width: 100%;
 }
 
-/* line 96, ../scss/custom.scss */
+/* line 97, ../scss/custom.scss */
 a.svg:after {
   content: "";
   position: absolute;
@@ -106,13 +107,13 @@ a.svg:after {
   left: 0;
 }
 
-/* line 106, ../scss/custom.scss */
+/* line 107, ../scss/custom.scss */
 a.svg.logo {
   width: 80px;
 }
 
 /*Navigation*/
-/* line 113, ../scss/custom.scss */
+/* line 114, ../scss/custom.scss */
 header {
   position: fixed;
   background: rgba(255, 255, 255, 0.98);
@@ -123,10 +124,27 @@ header {
   box-shadow: 4px 4px 2px 0px rgba(50, 50, 50, 0.15);
 }
 
+/* line 128, ../scss/custom.scss */
+.screenshot-container {
+  position: relative;
+  height: 0;
+  padding-bottom: 60%;
+}
+/* line 132, ../scss/custom.scss */
+.screenshot-container img {
+  position: absolute;
+  /*top: -1880px;*/
+}
+
 /*Media Queries!!!!!!!!!!!!!!!!!*/
 @media (max-width: 767px) {
+  /* line 145, ../scss/custom.scss */
+  header {
+    height: 65px;
+  }
+
   /*centers image*/
-  /* line 131, ../scss/custom.scss */
+  /* line 150, ../scss/custom.scss */
   .mobile-col-1-2-centered {
     width: 50%;
     margin-left: 25%;

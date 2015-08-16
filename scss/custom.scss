@@ -45,7 +45,7 @@ nav {
 }*/
 
 .outline, .outline *{
-    outline: 1px solid lightgrey; 
+    /*outline: 1px solid lightgrey; */
 }
 
 .content {
@@ -79,8 +79,9 @@ section {
 
 .secondary-nav {
     background: rgb(240,240,240);
+    line-height: 4.6;
     img {
-	    padding: 8%;
+	    padding: 0 15%;
 	    opacity: 0.5;
     }
 }
@@ -123,9 +124,27 @@ header {
 
 
 
+
+.screenshot-container {
+	position: relative;
+	height: 0;
+	padding-bottom: 60%;
+	img {
+	    position: absolute;
+	    /*top: -1880px;*/
+	}
+}
+
+
+
+
 /*Media Queries!!!!!!!!!!!!!!!!!*/
 
 @media (max-width: 767px) {
+
+	header {
+		height: 65px;
+	}
 
 	/*centers image*/
 	.mobile-col-1-2-centered {
