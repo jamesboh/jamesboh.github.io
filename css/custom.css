@@ -60,9 +60,9 @@ nav ul {
 section img, section canvas {
   width: 100%;
   /*margin-bottom: 20px;*/
-  -webkit-box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
-  -moz-box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
-  box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+  /*		-webkit-box-shadow: 4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+  		-moz-box-shadow:    4px 4px 20px 0px rgba(50, 50, 50, 0.25);
+  		box-shadow:         4px 4px 20px 0px rgba(50, 50, 50, 0.25);*/
 }
 
 /* line 68, ../scss/custom.scss */
@@ -129,22 +129,24 @@ header {
   position: relative;
   height: 0;
   padding-bottom: 60%;
+  overflow: hidden;
 }
-/* line 132, ../scss/custom.scss */
+/* line 134, ../scss/custom.scss */
 .screenshot-container img {
   position: absolute;
-  /*top: -1880px;*/
+  /*margin-top: -235%;*/
 }
 
 /*Media Queries!!!!!!!!!!!!!!!!!*/
 @media (max-width: 767px) {
-  /* line 145, ../scss/custom.scss */
+  /* line 147, ../scss/custom.scss */
   header {
-    height: 65px;
+    position: relative;
+    /*height: 65px;*/
   }
 
   /*centers image*/
-  /* line 150, ../scss/custom.scss */
+  /* line 153, ../scss/custom.scss */
   .mobile-col-1-2-centered {
     width: 50%;
     margin-left: 25%;
