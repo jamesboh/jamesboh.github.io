@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="110.2px" height="82.9px"
+	 viewBox="0 0 110.2 82.9" style="enable-background:new 0 0 110.2 82.9;" xml:space="preserve">
+
+<style type="text/css">
+	.st0 {
+		fill:transparent;
+		stroke:white;
+		stroke-width:2;
+		stroke-linejoin:miter;
+		stroke-miterlimit:10;
+
+		stroke-dasharray: 400;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash 2s linear 0s forwards, filllogo 1s linear 2s forwards;
+		-o-animation: dash 2s linear 0s forwards, filllogo 1s linear 2s forwards;
+		-moz-animation: dash 2s linear 0s forwards, filllogo 1s linear 2s forwards;
+		animation: dash 2s linear 0s forwards, filllogo 1s linear 2s forwards;
+
+<!-- 		-webkit-animation: dash 2s linear 0s forwards;
+		-o-animation: dash 2s linear 0s forwards;
+		-moz-animation: dash 2s linear 0s forwards;
+		animation: dash 2s linear 0s forwards; -->
+	}
+
+	@-webkit-keyframes dash {
+		from {
+			stroke-dashoffset: 400;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+
+	@-webkit-keyframes filllogo {
+		from {
+			fill:transparent;
+		}
+		to {
+			fill:white;
+		}
+	}
+</style>
+
+<path class="st0" d="M100.2,18.7C94.2,10.2,86,4.8,75.9,2.9C63,0.4,51.7,3.7,41.7,12.3V2.1H28.8l0,39.4c0,1.1-0.1,2.1-0.2,3.2
+	c-0.6,4.8-2.4,9.1-5.4,12.9c-1.5,2-3.3,3.7-5.4,5.1C14,65.5,9.8,67,5.1,67.5c-0.8,0.1-1.6,0.1-2.4,0.2v13.1c5.3,0,10.3-1,15.1-3
+	c7.3-3.1,13.1-7.9,17.6-14.5c4.2,6.2,9.6,10.9,16.4,14c6.8,3.1,13.9,4.2,21.2,3.3c7.4-0.9,14-3.7,19.8-8.4
+	C109.2,58.8,112.2,35.4,100.2,18.7z M94.3,42.3c-0.5,14-12.1,25.5-26.5,25.3C53.5,67.4,42,55.8,41.9,41.4
+	c0.1-15,12.5-26.7,27.2-26.2C83.2,15.7,94.8,27.6,94.3,42.3z"/>
+</svg>
